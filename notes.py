@@ -1,3 +1,5 @@
+-----------------------------------------------------------------------------------------------------------------------------
+
 # Manipulating Text
 
 # 1. var[i:f:j] once printed will output the string from the character of position i to the character of position f-1, jumping "j" times from one position to another. If i is ommited, python will use the character of position 0 as the initial. If the j is ommited python will use the character of the last position + 1 as the final. If j is ommited, python will understand as you are jumping from one character to the very next one. Examples:
@@ -60,6 +62,41 @@ var.split() # that will generate a new list: [(Python)(0) (is)(1) (great)(2)]
 var = 'Ohmygod'
 print('-'.join(var)) # output == O-h-m-y-g-o-d
 
+-----------------------------------------------------------------------------------------------------------------------------
 
+# if and else
+
+# 1. main format:
+if condition:
+  # do these instructions (indented)
+else:
+  # do these other instructions (indented)
+  
+# 2. reduced format:
+# do these instructions if condition else do these other instructions
+
+# 3. if, elif and else format:
+if condition:
+  # do these instructions (indented)
+elif condition2:
+  #do these other instructions (indented)
+elif condition3:
+  #do these other instructions (indented)
+#.
+#.
+#.
+else:
+  #do these other instructions (indented).
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+# Colors in Terminal
+
+# 1. main format:
+\033[s:t:bm
+
+# the possible values of s (style) is {0,1,4,7} where 0 indicates none, 1 indicates bold, 4 indicates underline and 7 indicates negative
+# the possible values of t (text) is {30,31,...,37} where each number indicates a different color (see the table here: https://imgur.com/mvJGNHP)
+# the possible values of b (text) is {40,41,...,47} where each number indicates a different color (see the table here: https://imgur.com/mvJGNHP)
 
 
