@@ -1,2 +1,4 @@
 # hello-world
-My class notes
+
+Hi Github!
+I'm going to put here all my class notes and exercises done with the comments.
