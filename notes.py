@@ -93,7 +93,7 @@ else:
 # Colors in Terminal
 
 # 1. main format:
-\033[s:t:bm
+# \033[s:t:bm
 
 # the possible values of s (style) is {0,1,4,7} where 0 indicates none, 1 indicates bold, 4 indicates underline and 7 indicates negative
 # the possible values of t (text) is {30,31,...,37} where each number indicates a different color (see the table here: https://imgur.com/mvJGNHP)
