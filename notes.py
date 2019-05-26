@@ -128,3 +128,15 @@ while True:
   if flag condition:
     # optional commands
     break
+    
+#-----------------------------------------------------------------------------------------------------------------------------
+
+# tuples, lists and dictionaries
+
+# 1. main format of the tuples:
+tuple = (int, float, strings, bool,...)
+# tuples are invariable (you cannot change their components while the program is running).
+
+# 2. maximum values and minimum values of a tuple may be obtained by:
+max(tuple)
+min(tuple)
