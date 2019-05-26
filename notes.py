@@ -104,17 +104,25 @@ else:
 # for & while
 
 # 1. main format of the for:
-for in range():
+for c in range():
   commands
 
-# 2. ask for multiple inputs: 
+# 2. secondary format of the for:
+for c in list:
+  commmands
+  
+# 3. using the for with end of the range == len(list):
+for c in range(0,len(list)):
+  commands
+  
+# 4. ask for multiple inputs: 
 x, y, z = [int(i) for i in input().split()]
 
-# 3. main format of the while:
+# 5. main format of the while:
 while behavior:
   commands
   
-# 4. infinite loop using while with flag condition:
+# 6. infinite loop using while with flag condition:
 while True:
   commands
   if flag condition:
