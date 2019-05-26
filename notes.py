@@ -109,3 +109,7 @@ for in range():
 
 # ask for multiple inputs: 
 x, y, z = [int(i) for i in input().split()]
+
+# main format of the while:
+while behavior:
+  commands
