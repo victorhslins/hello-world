@@ -113,3 +113,10 @@ x, y, z = [int(i) for i in input().split()]
 # 3. main format of the while:
 while behavior:
   commands
+  
+# 4. infinite loop using while with flag condition:
+while True:
+  commands
+  if flag condition:
+    # optional commands
+    break
