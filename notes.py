@@ -99,4 +99,13 @@ else:
 # the possible values of t (text) is {30,31,...,37} where each number indicates a different color (see the table here: https://imgur.com/mvJGNHP)
 # the possible values of b (text) is {40,41,...,47} where each number indicates a different color (see the table here: https://imgur.com/mvJGNHP)
 
+#-----------------------------------------------------------------------------------------------------------------------------
 
+# for & while
+
+# main format of the for:
+for in range():
+  commands
+
+# ask for multiple inputs: 
+x, y, z = [int(i) for i in input().split()]
