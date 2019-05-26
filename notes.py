@@ -103,13 +103,13 @@ else:
 
 # for & while
 
-# main format of the for:
+# 1. main format of the for:
 for in range():
   commands
 
-# ask for multiple inputs: 
+# 2. ask for multiple inputs: 
 x, y, z = [int(i) for i in input().split()]
 
-# main format of the while:
+# 3. main format of the while:
 while behavior:
   commands
