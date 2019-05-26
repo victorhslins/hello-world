@@ -140,3 +140,24 @@ tuple = (int, float, strings, bool,...)
 # 2. maximum values and minimum values of a tuple may be obtained by:
 max(tuple)
 min(tuple)
+
+# 3. main format of the lists:
+list = [int, float, strings, bool,...)
+
+# 4. add items to the end of a list:
+list.append(item)
+        
+# 5. insert items in a specific position of a list:
+list.insert(position,item)
+       
+# 6. delete items in a specific position of a list:
+del list[position]
+list.pop(position)
+list.remove(item)
+      
+#  7. making variables being lists calling a list function:
+var = list(range(i,f))
+        
+# 8. organizing numbers in a list:
+list.sort() # from the minimum to the maximum
+list.sort(reverse = True) # from the maximum to the minimum
