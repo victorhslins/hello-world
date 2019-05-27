@@ -154,10 +154,13 @@ list.insert(position,item)
 del list[position]
 list.pop(position)
 list.remove(item)
+        
+# 7. delete all the items of a list:        
+list.clear()
       
-#  7. making variables being lists calling a list function:
+#  8. making variables being lists calling a list function:
 var = list(range(i,f))
         
-# 8. organizing numbers in a list:
+# 9. organizing numbers in a list:
 list.sort() # from the minimum to the maximum
 list.sort(reverse = True) # from the maximum to the minimum
